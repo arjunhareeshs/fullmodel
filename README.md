@@ -104,7 +104,7 @@ plt.savefig("assets/target_distribution.png", bbox_inches="tight")
 ```
 
 ### Feature Correlation Heatmap
-![Correlation Heatmap](assets/template_correlation_heatmap.png)
+![Correlation Heatmap](corr.png)
 
 ```python
 import numpy as np
@@ -154,7 +154,7 @@ print("ROC-AUC:", auc_val)
 ```
 
 ### ROC Curve
-![ROC Curve](assets/template_roc_curve.png)
+![ROC Curve](roc.png)
 
 ```python
 import matplotlib.pyplot as plt
